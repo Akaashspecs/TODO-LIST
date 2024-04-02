@@ -20,9 +20,11 @@ give uset name and email
 
 -> git clone <repository_url>
 
+-> cd TODO-LIST
+
 -> Install Dependencies with ( npm install ) command in terminal.
 
--> Start the Development Server:
+-> Start the Development Server: with npm run dev.
 
 note-{if tailwind css is not working then you can run these two command
 npm install -D tailwindcss postcss autoprefixer
