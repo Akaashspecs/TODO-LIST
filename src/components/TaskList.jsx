@@ -4,6 +4,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { completeTask, removeTask } from "../actions/todoActions";
 import { useDispatch } from "react-redux";
 import React from "react";
+import "./TaskList.css";
 
 const TaskList = (props) => {
   const todoItems = useSelector(todoSelectorData);
@@ -19,8 +20,8 @@ const TaskList = (props) => {
   };
 
   return (
-    <div className="flex justify-center mt-5  h-[calc(100%-12rem)] overflow-y-scroll">
-      <div className="flex flex-col content-center items-center w-[800px] ">
+    <div className=" flex justify-center mt-5  h-[calc(100%-12rem)]">
+      <div className="flex flex-col content-center items-center w-[800px] no-scroll h-auto overflow-y-scroll">
         {todoItems.length > 0 &&
           todoItems.map((data) => (
             <div
