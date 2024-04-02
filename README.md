@@ -14,9 +14,7 @@ Open the terminal or command prompt on your local machine.
 Navigate to the directory where you want to clone the project.
 Run the following command to clone the repository:
 
-set up git on your vs code .
-
-give uset name and email
+install git on your pc.
 
 -> git clone <repository_url>
 
