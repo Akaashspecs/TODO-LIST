@@ -20,7 +20,7 @@ give uset name and email
 
 -> git clone <repository_url>
 
--> cd TODO-LIST
+-> go to terminal and write cd TODO-LIST
 
 -> Install Dependencies with ( npm install ) command in terminal.
 
